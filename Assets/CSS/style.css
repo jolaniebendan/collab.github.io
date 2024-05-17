@@ -1,0 +1,81 @@
+:root {
+
+    --bg1: #729cc4;
+    --bg2: RGB(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #ffffff;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 73%, 4%, 0.178), rgba(0, 0, 0, 0.212)),
+     url(https://images.squarespace-cdn.com/content/v1/55e594e1e4b0a22db8637b85/1707865066268-E695U6UV2XSAYEX28UD0/LUN2427_Desktop-banner_1b.jpg);
+     background-size:cover;
+     
+    }
+
+    .banner {
+        color: #ff0000;
+    }
+    .navbar {
+       background: linear-gradient( to bottom, hsla(0, 2%, 17%, 0.829), rgba(44, 42, 42, 0.884)); 
+    }
+
+    /* .navbar>.container {
+        flex-wrap: nowrap;
+    } */
+
+    .navbar .nav-link {
+        color: #FFFFFF;
+    }
+
+    .navbar #navbarNav .nav-link.active {
+         color: gold !important;
+
+    }
+
+    .navbar .nav-link:hover {
+        color: gold;
+    }
+
+    .navbar-brand img {
+        width: 10%;
+        
+    }  
+
+    .btn{
+        padding: 15px 30px;
+        transition: all 0.4s ease;
+        font-weight: 800;
+        border-radius: 0;
+    }
+
+    .btn-brand {
+        background-color: var(--brand);
+        
+    }
+
+    .btn-brand:hover {
+        background-color: transparent;
+        color: var(--brand);
+        border-color: var(--brand);
+    }
+
+    
+    .btn-outlined-brand {
+        background-color: transparent;
+        color:var(--brand);
+        border-color: var(--brand);
+    }
+
+    .btn-outlined-brand:hover {
+        background-color: var(--brand);
+        color: var(--bg1);
+    }
